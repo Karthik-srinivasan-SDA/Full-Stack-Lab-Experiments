@@ -1,0 +1,200 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #282727;
+    background: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #d97306;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#user-auth button {
+    background-color: white;
+    color: #10044d;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#user-auth button:hover {
+    background-color: #00796b;
+    color: white;
+}
+
+.hero {
+    background: linear-gradient(135deg, #d2795e, #1d1a14);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #009688;
+}
+
+.course {
+    background-color: #e0f7fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.course h3 {
+    color: #ff8205;
+}
+
+.course button {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course button:hover {
+    background-color: #00796b;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact label {
+    font-weight: bold;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px;
+    background-color: #e7f65d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #06b4ff;
+}
+
+footer {
+    background-color: #c6588f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.modal-content form button {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content form button:hover {
+    background-color: #00796b;
+}
